@@ -1,9 +1,15 @@
 #include <stdio.h>
 void main()
 {
+<<<<<<< HEAD
   char Name[30][40] = {"Benz Pookpui", "Natnicha OnnuchBudpetch", "Ying Phakpon","Chai Chanchai", "Yong Boonsith", "Kitti Karndee"};
   int ID[30] = {5301, 5302, 5303, 5304, 5305, 5306}; 
   float GPA[30] = {2.73, 3.99, 3.65, 3.24, 1.32, 3.26}; 
+=======
+  char Name[30][40] = {"Benz Pookpui", "Natnicha Onnuch", "Ying Phakpon","Chai Chanchai", "Yong Boonsith", "Kitti Karndee"};
+  int ID[30] = {5301, 5302, 5303, 5304, 5305, 5306}; 
+  float GPA[30] = {2.73, 4.00, 3.65, 3.24, 1.32, 3.26};
+>>>>>>> 3b70fd6016693ff004c1abf0ccc5d550b8feef3b
   int N = 6, i;
   int SearchID, found_index; 
  
